@@ -1,5 +1,5 @@
 // 61. Create an object with properties name, age, and city. Log the object.
-let person = { name: 'John', age: 12, city: 'San Francisco' };
+let person = { name: 'Divyansh', age: 12, city: 'San Francisco' };
 
 console.log(person);
 
@@ -20,8 +20,8 @@ function logKeys(obj) {
   logKeys(person); // Output: ["name", "city", "isStudent"]
   
 // 66. Create an array of objects representing books with title and author properties.
-let book = [{ title: 'John', author: 'John Smith ' },
-{ title: 'Jane', author: 'Jane Doe' },
+let book = [{ title: 'Divyansh', author: 'Divyansh Smith ' },
+{ title: 'Divyansh', author: 'Divyansh Doe' },
 ]
 
 console.log(book);

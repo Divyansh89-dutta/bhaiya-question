@@ -51,7 +51,6 @@ for (let i = array.length - 1; i >= 0; i--) {
     reveredArray.push(array[i]);
 }
 console.log(reveredArray);
-//29. Log numbers from 1 to 100 divisible by 5 using a while loop.
 let n = 1;
 while (n <= 100) {
     if (n % 5 === 0) {

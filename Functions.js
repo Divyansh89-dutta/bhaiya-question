@@ -1,57 +1,57 @@
 // 41. Check if a number is even or odd.
-function checkEvenOrOdd(number) {
-    return number % 2 === 0 ? "even" : "odd";
+function check(num) {
+    return num % 2 === 0 ? "even" : "odd";
 }
-console.log(checkEvenOrOdd(5));
-console.log(checkEvenOrOdd(8));
+console.log(check(5));
+console.log(check(8));
 
 // 42. Calculate the area of a circle with a given radius.
-function calculateArea(radius) {
-    return Math.PI * radius * radius;
+function area(rad) {
+    return Math.PI * rad * rad;
 }
-console.log(calculateArea(5));
+console.log(area(5));
 // 43. Return the sum of elements in an array.
-function sumAarray(array) {
+function sum(array) {
     return array.reduce((sum, element) => sum + element, 0);
 }
-console.log(sumAarray([1, 2, 3, 4, 5]));
+console.log(sum([1, 2, 3, 4, 5]));
 // 44. Check if a string starts with a specific character.
-function startWithChar(str, char) {
+function char(str, char) {
     return str.startsWith(char);
 }
 
-console.log(startWithChar("hello world", "h"));
-console.log(startWithChar("hello world", "l"));
+console.log(char("divyansh", "h"));
+console.log(char("divyansh", "i"));
 // 45. Find the maximum of two numbers.
-function findMax(num1, num2) {
+function max(num1, num2) {
     return num1 > num2 ? num1 : num2;
 }
-console.log(findMax(5, 10));
+console.log(max(5, 10));
 // 46. Return the factorial of a number.
-function factorial(num){
+function fact(num){
     if(num === 0 || num === 1)
         return 1;
     else
-        return num * factorial(num-1);
+        return num * fact(num-1);
 }
-console.log(factorial(5));
+console.log(fact(5));
 // 47. Return the reverse of a string.
-function reverse(str){
-    return str.split('').reverse().join('');
+function rev(str){
+    return str.split('').rev().join('');
 }
-console.log(reverse("hello"));
+console.log(rev("hello"));
 // 48. Find the largest number in an array.
-function findLargestNumber(array){
+function find(array){
     return Math.max(...array);
 }
-console.log(findLargestNumber([1, 2, 3, 4, 5]));
+console.log(find([1, 2, 3, 4, 5]));
 // 49. Convert a string to kebab-case.
-function tokababCase(str){
+function tob(str){
     return str.replace(/\s+/g, '-').toLowerCase();
 }
-console.log(tokababCase("Hello World"));
+console.log(tob("Hello World"));
 // 50. Log "Hello, World!" every time the function is called.
- function logHelloWorld(){
+ function hello(){
     console.log("Hello, World!");
 }
-logHelloWorld();
+hello();

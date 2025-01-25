@@ -17,11 +17,11 @@ const number = [10, 20, 30, 40, 50, 60,]
 const firstThree = number.slice(0, 3);
 console.log(firstThree);
 // 36. Find the index of a specific element in an array using
-const names = ["alice", "bob", "divyansh"];
-const index = names.indexOf("bob");
+const names = ["jay", "bhopu", "divyansh"];
+const index = names.indexOf("bhopu");
 console.log(index);
 // 37. Check if a value exists in an array using .includes().
-const cities = ["new", "london", "pp"];
+const cities = ["bombay", "london", "bhopal"];
 const exists = cities.includes("london");
 console.log(exists);
 //  38. Combine two arrays [1, 2] and [3, 4] using .concat().

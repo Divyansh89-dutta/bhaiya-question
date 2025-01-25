@@ -1,19 +1,16 @@
 // 51. Check if a number is positive, negative, or zero.
-function checkNumber(num) {
+function check(num) {
     if (num > 0) {
-        console.log("Number is positive");
+        console.log("positive");
     } else if (num < 0) {
-        console.log("Number is negative");
+        console.log("negative");
     } else {
-        console.log("Number is zero");
+        console.log("zero");
     }
 }
-checkNumber(5); // Output: Number is positive
-checkNumber(-3); // Output: Number is negative
-checkNumber(0); // Output: Number is zero
-
-
-
+check(5); // Output:  
+check(-3); // Output:  
+check(0); // Output:  
 // 51. Check if a number is positive, negative, or zero.
 function checkNumber(num) {
     if (num > 0) {
@@ -24,9 +21,9 @@ function checkNumber(num) {
         console.log("Zero");
     }
 }
-checkNumber(5);   // Output: Positive
-checkNumber(-3);  // Output: Negative
-checkNumber(0);   // Output: Zero
+checkNumber(5); 
+checkNumber(-3);
+checkNumber(0);   
 // 52. Check if a year is a leap year.
 function isLeapYear(year) {
     if ((year % 4 === 0 && year % 100 !== 0) || (year % 400 === 0)) {
@@ -37,10 +34,10 @@ function isLeapYear(year) {
     }
 }
 
-isLeapYear(2020); // Output: 2020 is a leap year
+isLeapYear(2020); 
 isLeapYear(2023);
 // 53. Determine if a person can vote based on their age.
-function canVote(age) {
+function vote(age) {
     if (age >= 18) {
         console.log("Eligible to vote");
     }
@@ -48,12 +45,11 @@ function canVote(age) {
         console.log("Not eligible to vote");
     }
 }
-canVote(25); // Output: Eligible to vote
-canVote(17); // Output: Not eligible to vote
-
+vote(25); 
+vote(17);
 // 54. Log the name of the day based on its number (1 = Monday).
-function getDayName(daynumber) {
-    switch (daynumber) {
+function day(day) {
+    switch (day) {
         case 1: console.log("Monday"); break;
         case 2: console.log("Tuesday"); break;
         case 3: console.log("Wednesday"); break;
@@ -65,9 +61,9 @@ function getDayName(daynumber) {
     }
 }
 
-getDayName(3); // Output: Wednesday
+day(3); // Output: Wednesday
 // 55. Check if a number is divisible by 3 and 5.
-function isDivisibleby3and5(numb) {
+function div(numb) {
     if (numb % 3 === 0 && numb % 5 === 0) {
         console.log(numb + " is divisible by 3 and 5");
     }
@@ -76,9 +72,9 @@ function isDivisibleby3and5(numb) {
     }
 }
 
-isDivisibleby3and5(15); // Output: 15 is divisible by 3 and 5
+div(15);
 // 56. Check the grade of a student based on marks.
-function getGrade(marks) {
+function grade(marks) {
     if (marks >= 90) {
         console.log("Grade: A");
     }
@@ -96,9 +92,9 @@ function getGrade(marks) {
     }
 }
 
-getGrade(85); // Output: Grade: B
+grade(85); // Output: Grade: B
 // 57. Compare two strings and log if they are equal.
-function compareString(str1, str2) {
+function string(str1, str2) {
     if (str1 === str2) {
         console.log("Strings are equal");
     } else {
@@ -106,15 +102,15 @@ function compareString(str1, str2) {
     }
 }
 
-compareString("hello", "world"); // Output: Strings are not equal
+string("hello", "world"); 
 // 58. Check if a number is even or odd using a ternary operator.
-function checkEvenOdd(num) {
+function evnOrOdd(num) {
     console.log(num % 2 === 0 ? "Even" : "Odd");
 }
 
-checkEvenOdd(5); // Output: Odd
+evnOrOdd(5); 
 // 59. Find the largest of three numbers using if...else.
-function findLargest(num1, num2, num3) {
+function find(num1, num2, num3) {
     if (num1 >= num2 && num1 >= num3) {
         console.log(num1 + " is the largest");
     }
@@ -126,21 +122,21 @@ function findLargest(num1, num2, num3) {
     }
 }
 
-findLargest(5, 7, 3); // Output: 7 is the largest
+find(5, 7, 3);
 // 60. Calculate the discount based on the price of an item
-function calculateDiscount(price){
-    let discount;
+function cal(price){
+    let dis;
     if(price > 1000){
-        discount = 0.2;
+        dis = 0.2;
         }
         else if(price > 500){
-        discount = 0.15;
+        dis = 0.15;
         }
         else{
-            discount = 0;
+            dis = 0;
         }
-        console.log(`discount: ${discount}`);
+        console.log(`dis: ${dis}`);
 }
 
-calculateDiscount(1200); // Output: 240
-calculateDiscount(400);
+cal(1200); // Output: 240
+cal(400);

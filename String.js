@@ -15,7 +15,7 @@ console.log(sen.split(" "));
 console.log(str.indexOf("a"));
 
 // 76. Replace "JavaScript" with "JS" in the string "I love JavaScript".
-console.log(str.replace("JavaScript", "javascript"));
+console.log(str.replace("Divaysnh", "Duttaroy"));
 // 77. Repeat a string 3 times using .repeat().
 
 console.log(str.repeat(3));
@@ -32,7 +32,7 @@ console.log(paddingString.trim());
 // 80. Create a function to count the number of vowels in a string.
 function countVowels(str) {
     let vowels = 'aeiou';
-    return text.split(" ").filter(char=> vowels.includes(char)).lenght;
+    return text.split("").filter(char=> vowels.includes(char)).lenght;
 }
 
 console.log(countVowels("divyansh"));
